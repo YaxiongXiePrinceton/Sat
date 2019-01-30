@@ -1,7 +1,0 @@
-socket.o: socket.cc socket.hh
-payload.o: payload.cc payload.hh
-acker.o: acker.cc acker.hh socket.hh payload.hh saturateservo.hh
-Sat_server.o: Sat_server.cc acker.hh socket.hh saturateservo.hh
-Sat_acker.o: Sat_acker.cc acker.hh socket.hh saturateservo.hh
-saturateservo.o: saturateservo.cc saturateservo.hh socket.hh payload.hh \
- acker.hh
