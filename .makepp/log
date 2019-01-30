@@ -1,0 +1,265 @@
+3/usr/bin/makepp
+VERSION2.0.98.55.26.1x86_64-linux-gnu-thread-multi
+DEBUG0
+LOAD560ada2a3010Makefile560ada4b8de8/home/alex/LTE_software/saturater560ada4b8de8
+TRY560ada2a3010
+USEdefault rule
+DEPEND560ada2a3010
+UP_TO_DATE560ada2a3010
+LOAD_DEFAULT560ada4b8bf0LTE_software560ada57f1f8/home/alex
+LOAD_INCL560adad36c70makepp_builtin_rules.mk560adac92668/usr/share/makepp560adad32b78makepp_default_makefile.mk560adac92668
+LOAD_END560adad32b78
+LOAD_DEFAULT560ada57f1f8
+LOAD_INCL560adad36c70560adad32b78
+LOAD_END560adad32b78
+LOAD_INCL560adad36c70560ada2a3010
+PREBUILD560adad2a4d0depend560ada4b8de8/home/alex/LTE_software/saturater/Makefile:20
+TRY560adad2a4d0
+USE/home/alex/LTE_software/saturater/Makefile:22
+SCAN_INFO560adad2a4d0
+LEX_RULE560adad2a4d0info not cached
+PARSEg++  -MM socket.cc payload.cc acker.cc Sat_server.cc Sat_acker.cc saturateservo.cc 560ada4b8de8/home/alex/LTE_software/saturater/Makefile:22
+TRY560adadae368g++560adadae290/usr/bin
+USEdefault rule
+DEPEND560adadae368
+UP_TO_DATE560adadae368
+TRY560adad209f8socket.cc560ada4b8de8
+USEdefault rule
+DEPEND560adad209f8
+UP_TO_DATE560adad209f8
+INCL560adad209f8560adad20de8socket.hh560ada4b8de8
+TRY560adad20de8
+USEdefault rule
+DEPEND560adad20de8
+UP_TO_DATE560adad20de8
+INCL560adad209f8560adadeebf8inet.h560adadc7530/usr/include/arpa
+TRY560adadeebf8
+USEdefault rule
+DEPEND560adadeebf8
+UP_TO_DATE560adadeebf8
+INCL560adad209f8560adae07098assert.h560adadeea60/usr/include
+TRY560adae07098
+USEdefault rule
+DEPEND560adae07098
+UP_TO_DATE560adae07098
+INCL560adad209f8560adadcd228in.h560adae162d0/usr/include/netinet
+TRY560adadcd228
+USEdefault rule
+DEPEND560adadcd228
+UP_TO_DATE560adadcd228
+INCL560adad209f8560adae117f0stdio.h560adadeea60
+TRY560adae117f0
+USEdefault rule
+DEPEND560adae117f0
+UP_TO_DATE560adae117f0
+INCL560adad20de8560adadcd228
+INCL560adad20de8560adae09da0string.h560adadeea60
+TRY560adae09da0
+USEdefault rule
+DEPEND560adae09da0
+UP_TO_DATE560adae09da0
+INCL560adad20de8560adade6d80time.h560adadeea60
+TRY560adade6d80
+USEdefault rule
+DEPEND560adade6d80
+UP_TO_DATE560adade6d80
+TRY560adad20968payload.cc560ada4b8de8
+USEdefault rule
+DEPEND560adad20968
+UP_TO_DATE560adad20968
+INCL560adad20968560adae07098
+INCL560adad20968560adad20ba8payload.hh560ada4b8de8
+TRY560adad20ba8
+USEdefault rule
+DEPEND560adad20ba8
+UP_TO_DATE560adad20ba8
+TRY560adad20c38acker.cc560ada4b8de8
+USEdefault rule
+DEPEND560adad20c38
+UP_TO_DATE560adad20c38
+INCL560adad20c38560adad208d8acker.hh560ada4b8de8
+TRY560adad208d8
+USEdefault rule
+DEPEND560adad208d8
+UP_TO_DATE560adad208d8
+INCL560adad20c38560adad20ba8
+INCL560adad20c38560adad20728saturateservo.hh560ada4b8de8
+TRY560adad20728
+USEdefault rule
+DEPEND560adad20728
+UP_TO_DATE560adad20728
+INCL560adad20c38560adae07098
+INCL560adad208d8560adad20de8
+INCL560adad20728560adad20de8
+TRY560adad30468Sat_server.cc560ada4b8de8
+USEdefault rule
+DEPEND560adad30468
+UP_TO_DATE560adad30468
+INCL560adad30468560adad208d8
+INCL560adad30468560adad20728
+INCL560adad30468560adae07098
+INCL560adad30468560adae06678poll.h560adadeea60
+TRY560adae06678
+USEdefault rule
+DEPEND560adae06678
+UP_TO_DATE560adae06678
+INCL560adad30468560adae0cf68unistd.h560adadeea60
+TRY560adae0cf68
+USEdefault rule
+DEPEND560adae0cf68
+UP_TO_DATE560adae0cf68
+TRY560adad20608Sat_acker.cc560ada4b8de8
+USEdefault rule
+DEPEND560adad20608
+UP_TO_DATE560adad20608
+INCL560adad20608560adad208d8
+INCL560adad20608560adad20728
+INCL560adad20608560adae07098
+INCL560adad20608560adae06678
+INCL560adad20608560adae0cf68
+TRY560adad207b8saturateservo.cc560ada4b8de8
+USEdefault rule
+DEPEND560adad207b8
+UP_TO_DATE560adad207b8
+INCL560adad207b8560adad208d8
+INCL560adad207b8560adad20ba8
+INCL560adad207b8560adad20728
+INCL560adad207b8560adad20de8
+INCL560adad207b8560adae07098
+INCL560adad207b8560adae06c18math.h560adadeea60
+TRY560adae06c18
+USEdefault rule
+DEPEND560adae06c18
+UP_TO_DATE560adae06c18
+DEPEND560adad2a4d0560adad20608560adad30468560adad20c38560adad208d8560adae07098560adadae368560adadcd228560adadeebf8560adae06c18560adad20968560adad20ba8560adae06678560adad207b8560adad20728560adad209f8560adad20de8560adae117f0560adae09da0560adade6d80560adae0cf68
+BUILD_NONE560adad2a4d0
+SUCCESS/home/alex/LTE_software/saturater/Makefile:22560adad2a4d0
+LOAD_AGAIN560ada2a3010late rules for include statements560ada4b8de8
+TRY560ada2a3010
+USEdefault rule
+DEPEND560ada2a3010
+UP_TO_DATE560ada2a3010
+PREBUILD560adad2a4d0/home/alex/LTE_software/saturater/Makefile:20
+LOAD_INCL560adad2a4d0/home/alex/LTE_software/saturater/Makefile:20
+LOAD_INCL560adad36c70560ada2a3010
+LOAD_END560ada2a3010
+TRY560ada2a3a78all560ada4b8de8
+USEdefault rule
+DEPEND560ada2a3a78560adad1ac10Sat_acker560ada4b8de8560adad1aac0Sat_server560ada4b8de8
+TRY560adad1ac10
+USE/home/alex/LTE_software/saturater/Makefile:14
+SCAN_INFO560adad1ac10
+LEX_RULE560adad1ac10info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -o Sat_acker Sat_acker.o acker.o payload.o saturateservo.o socket.o -lm -lrt560ada4b8de8/home/alex/LTE_software/saturater/Makefile:14
+DEPEND560adad1ac10560adad1a9a0Sat_acker.o560ada4b8de8560adad29b10acker.o560ada4b8de8560adadae368560adad29cd8payload.o560ada4b8de8560adad29ea0saturateservo.o560ada4b8de8560adad2a230socket.o560ada4b8de8
+TRY560adad1a9a0
+USE/home/alex/LTE_software/saturater/Makefile:17
+SCAN_INFO560adad1a9a0
+LEX_RULE560adad1a9a0info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -c -o Sat_acker.o Sat_acker.cc560ada4b8de8/home/alex/LTE_software/saturater/Makefile:17
+INCL560adad20608560adae07098
+INCL560adad20608560adae06678
+INCL560adad20608560adae0cf68
+INCL560adad20608560adad208d8
+INCL560adad20608560adad20728
+INCL560adad208d8560adad20de8
+INCL560adad20728560adad20de8
+INCL560adad20de8560adadcd228
+INCL560adad20de8560adae09da0
+INCL560adad20de8560adade6d80
+DEPEND560adad1a9a0560adad20608560adad208d8560adae07098560adadae368560adadcd228560adae06678560adad20728560adad20de8560adae09da0560adade6d80560adae0cf68
+BUILD_NONE560adad1a9a0
+SUCCESS/home/alex/LTE_software/saturater/Makefile:17560adad1a9a0
+TRY560adad29b10
+USE/home/alex/LTE_software/saturater/Makefile:17
+SCAN_INFO560adad29b10
+LEX_RULE560adad29b10info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -c -o acker.o acker.cc560ada4b8de8/home/alex/LTE_software/saturater/Makefile:17
+INCL560adad20c38560adae07098
+INCL560adad20c38560adad208d8
+INCL560adad20c38560adad20ba8
+INCL560adad20c38560adad20728
+INCL560adad208d8560adad20de8
+INCL560adad20728560adad20de8
+INCL560adad20de8560adadcd228
+INCL560adad20de8560adae09da0
+INCL560adad20de8560adade6d80
+DEPEND560adad29b10560adad20c38560adad208d8560adae07098560adadae368560adadcd228560adad20ba8560adad20728560adad20de8560adae09da0560adade6d80
+BUILD_NONE560adad29b10
+SUCCESS/home/alex/LTE_software/saturater/Makefile:17560adad29b10
+TRY560adad29cd8
+USE/home/alex/LTE_software/saturater/Makefile:17
+SCAN_INFO560adad29cd8
+LEX_RULE560adad29cd8info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -c -o payload.o payload.cc560ada4b8de8/home/alex/LTE_software/saturater/Makefile:17
+INCL560adad20968560adad20ba8
+INCL560adad20968560adae07098
+DEPEND560adad29cd8560adae07098560adadae368560adad20968560adad20ba8
+BUILD_NONE560adad29cd8
+SUCCESS/home/alex/LTE_software/saturater/Makefile:17560adad29cd8
+TRY560adad29ea0
+USE/home/alex/LTE_software/saturater/Makefile:17
+SCAN_INFO560adad29ea0
+LEX_RULE560adad29ea0info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -c -o saturateservo.o saturateservo.cc560ada4b8de8/home/alex/LTE_software/saturater/Makefile:17
+INCL560adad207b8560adad208d8
+INCL560adad207b8560adad20ba8
+INCL560adad207b8560adad20728
+INCL560adad207b8560adad20de8
+INCL560adad207b8560adae07098
+INCL560adad207b8560adae06c18
+INCL560adad208d8560adad20de8
+INCL560adad20728560adad20de8
+INCL560adad20de8560adadcd228
+INCL560adad20de8560adae09da0
+INCL560adad20de8560adade6d80
+DEPEND560adad29ea0560adad208d8560adae07098560adadae368560adadcd228560adae06c18560adad20ba8560adad207b8560adad20728560adad20de8560adae09da0560adade6d80
+BUILD_NONE560adad29ea0
+SUCCESS/home/alex/LTE_software/saturater/Makefile:17560adad29ea0
+TRY560adad2a230
+USE/home/alex/LTE_software/saturater/Makefile:17
+SCAN_INFO560adad2a230
+LEX_RULE560adad2a230info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -c -o socket.o socket.cc560ada4b8de8/home/alex/LTE_software/saturater/Makefile:17
+INCL560adad209f8560adad20de8
+INCL560adad209f8560adadeebf8
+INCL560adad209f8560adae07098
+INCL560adad209f8560adadcd228
+INCL560adad209f8560adae117f0
+INCL560adad20de8560adadcd228
+INCL560adad20de8560adae09da0
+INCL560adad20de8560adade6d80
+DEPEND560adad2a230560adae07098560adadae368560adadcd228560adadeebf8560adad209f8560adad20de8560adae117f0560adae09da0560adade6d80
+BUILD_NONE560adad2a230
+SUCCESS/home/alex/LTE_software/saturater/Makefile:17560adad2a230
+BUILD_NONE560adad1ac10
+SUCCESS/home/alex/LTE_software/saturater/Makefile:14560adad1ac10
+TRY560adad1aac0
+USE/home/alex/LTE_software/saturater/Makefile:11
+SCAN_INFO560adad1aac0
+LEX_RULE560adad1aac0info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -o Sat_server Sat_server.o acker.o payload.o saturateservo.o socket.o -lm -lrt560ada4b8de8/home/alex/LTE_software/saturater/Makefile:11
+DEPEND560adad1aac0560adad29948Sat_server.o560ada4b8de8560adad29b10560adadae368560adad29cd8560adad29ea0560adad2a230
+TRY560adad29948
+USE/home/alex/LTE_software/saturater/Makefile:17
+SCAN_INFO560adad29948
+LEX_RULE560adad29948info not cached
+PARSEg++ -g -O3 -std=c++0x -ffast-math -pedantic -Werror -Wall -Wextra -Weffc++ -fno-default-inline -pipe -D_FILE_OFFSET_BITS=64 -D_XOPEN_SOURCE=500 -D_GNU_SOURCE -c -o Sat_server.o Sat_server.cc560ada4b8de8/home/alex/LTE_software/saturater/Makefile:17
+INCL560adad30468560adad208d8
+INCL560adad30468560adad20728
+INCL560adad30468560adae07098
+INCL560adad30468560adae06678
+INCL560adad30468560adae0cf68
+INCL560adad208d8560adad20de8
+INCL560adad20728560adad20de8
+INCL560adad20de8560adadcd228
+INCL560adad20de8560adae09da0
+INCL560adad20de8560adade6d80
+DEPEND560adad29948560adad30468560adad208d8560adae07098560adadae368560adadcd228560adae06678560adad20728560adad20de8560adae09da0560adade6d80560adae0cf68
+BUILD_NONE560adad29948
+SUCCESS/home/alex/LTE_software/saturater/Makefile:17560adad29948
+BUILD_NONE560adad1aac0
+SUCCESS/home/alex/LTE_software/saturater/Makefile:11560adad1aac0
+SUCCESSdefault rule560ada2a3a78
+*** warning: There is no rule to build inexistent /home/alex/LTE_software/saturater/all
+N_FILES910

@@ -1,0 +1,6 @@
+C_MD5_SUM=6xGgIeNb3hx8VPmyaHJUEg
+LIBS=
+INCLUDES=acker.hh payload.hh saturateservo.hh
+SYSTEM_INCLUDES=assert.h
+SIGNATURE=1548808024,2511
+END=

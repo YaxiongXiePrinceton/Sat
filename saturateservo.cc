@@ -80,8 +80,8 @@ void SaturateServo::recv( void )
     }   
 // End of Yaxiong's code
  
-    fprintf( _log_file, "%s ACK RECEIVED senderid=%d, seq=%d, send_time=%ld,  recv_time=%ld, rtt=%.4f, %d => ",
-       _name.c_str(),_server ? _foreign_id : contents->sender_id , contents->ack_number, contents->sent_timestamp, contents->recv_timestamp, (double)rtt,  _window );
+    //fprintf( _log_file, "%s ACK RECEIVED senderid=%d, seq=%d, send_time=%ld,  recv_time=%ld, rtt=%.4f, %d => ",
+      // _name.c_str(),_server ? _foreign_id : contents->sender_id , contents->ack_number, contents->sent_timestamp, contents->recv_timestamp, (double)rtt,  _window );
  
  /*   if ( (rtt < LOWER_RTT) && (_window < UPPER_WINDOW) ) {
       _window++;
@@ -91,9 +91,9 @@ void SaturateServo::recv( void )
       _window -= 20;
     }
 */
-    printf( "ACK RECEIVED senderid=%d ack_num=%d pkt_sent=%d pkt_OTA=%d RTT:%f OneWay:%f WINDOW:%d targetW:%d\n",
-	  contents->sender_id, contents->ack_number,_packets_sent, _packets_sent - contents->ack_number, rtt, oneway_delay, _window, window_size); 
-    fprintf( _log_file, "%d\n", _window );
+    //printf( "ACK RECEIVED senderid=%d ack_num=%d pkt_sent=%d pkt_OTA=%d RTT:%f OneWay:%f WINDOW:%d targetW:%d\n",
+//	  contents->sender_id, contents->ack_number,_packets_sent, _packets_sent - contents->ack_number, rtt, oneway_delay, _window, window_size); 
+ //   fprintf( _log_file, "%d\n", _window );
   }
 }
 

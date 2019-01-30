@@ -1,0 +1,6 @@
+SIGNATURE=1548300230,1490
+LIBS=
+INCLUDES=
+C_MD5_SUM=TND2IgoSZiCXAJLTjCaHAA
+SYSTEM_INCLUDES=netinet/in.h string string.h sys/socket.h time.h
+END=

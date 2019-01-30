@@ -1,0 +1,16 @@
+SORTED_DEPS=Sat_acker.ccSat_server.ccacker.ccacker.hh/usr/include/assert.h/usr/bin/g++/usr/include/netinet/in.h/usr/include/arpa/inet.h/usr/include/math.hpayload.ccpayload.hh/usr/include/poll.hsaturateservo.ccsaturateservo.hhsocket.ccsocket.hh/usr/include/stdio.h/usr/include/string.h/usr/include/time.h/usr/include/unistd.h
+BUILD_SIGNATURE=redDG8nTsaiyrcfVkTRtLg
+SIG_METHOD_IMPLICIT=1
+SIG_METHOD_NAME=C
+SIGNATURE=1548813213,338
+INCLUDE_SFXS=lib.la.so.sa.a.sl
+ARCH=x86_64-linux-gnu-thread-multi
+COMMAND=g++  -MM socket.cc payload.cc acker.cc Sat_server.cc Sat_acker.cc saturateservo.cc > depend
+DEP_SIGS=KOAD0DvpRV5SEiPHCzmJ2w9b0Rf31nu7PdulDvZIhoBg6xGgIeNb3hx8VPmyaHJUEgd3IZIJx9qQ2u3Hzqe5ED4Q1523909660,46421532607952,10106241523909660,216251523909660,42761523909660,45384A8JFIY3FW7Cg/HEtTXncXAmtKy9hR0L5+am+Bh69H1TQ1523909660,22pBPi9ExZ0Zh+qJ8OD++HZgCwuj9X+faNkAgh7mc3byZAI/gueKiaz7uARrAVj2FsqATND2IgoSZiCXAJLTjCaHAA1523909660,296651523909660,175451523909660,103601523909660,42785
+INCLUDE_PATHS=lib/usr/local/lib/usr/lib/libsys/usr/local/include/usr/includeuser/usr/local/include/usr/include
+MD5_SUM=redDG8nTsaiyrcfVkTRtLg
+CWD=.
+IMPLICIT_TARGETS=depend
+META_DEPS=/usr/bin/g++Sat_acker.ccSat_server.ccacker.ccpayload.ccsaturateservo.ccsocket.ccsysarpa/inet.hassert.hfstreammath.hnetinet/in.hpoll.hstdio.hstringstring.hsys/socket.hsys/types.htime.hunistd.hvectoruser./acker.hhpayload.hhsaturateservo.hhsocket.hh
+IMPLICIT_DEPS=
+END=
