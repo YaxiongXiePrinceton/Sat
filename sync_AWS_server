@@ -1,0 +1,3 @@
+rm client-*
+rm server-*
+scp -r ../saturater ubuntu@18.219.130.128:~/
